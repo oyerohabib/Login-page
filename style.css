@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Space+Grotesk&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.side-1 {
+  width: 50%;
+  background-image: url("./asset/room.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  justify-content: flex-end;
+}
+
+.side-1 h1 {
+  width: 50%;
+  margin-bottom: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  line-height: 46px;
+  font-size: 40px;
+}
+
+.side-2 {
+  width: 50%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: #f5f5f5;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-2 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 430px;
+}
+
+.side-2 header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.side-2 header span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.side-2 .sub-header {
+  margin-bottom: 40px;
+}
+
+.side-2 .sub-header h1 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.side-2 .sub-header p {
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.side-2 button.icon-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  height: 66px;
+  padding: 20px 12px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.side-2 div.or {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #7a7a7a;
+  font-size: 20px;
+}
+
+.side-2 div.or .line {
+  border: 1px solid #e0e0e0;
+  width: 200px;
+}
+
+.side-2 form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  height: 48px;
+  padding: 11px, 0px, 11px, 0px;
+  padding: 11px 0px;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+form input[type="email"]::placeholder,
+form input[type="password"]::placeholder {
+  color: #000000;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+}
+
+.side-2 .form-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.side-2 .form-footer .left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.side-2 .form-footer .right a {
+  color: #000000;
+}
+
+.side-2 form button.login {
+  width: 100%;
+  padding: 20px 36px 20px 36px;
+  background-color: #060606;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+  border-radius: 6px;
+}
+
+.side-2 p.account {
+  font-size: 16px;
+  text-align: center;
+}
+
+.side-2 p.account a {
+  color: #000000;
+}
